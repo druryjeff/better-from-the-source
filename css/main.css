@@ -89,9 +89,12 @@ body {
 	}
 	.custom-list li {
 		float: left;
-		width: 48%;
+		width: 49%;
 		height: 22em;
 		margin-right: 2%;
+	}
+	.custom-list li:nth-child(even) {
+		margin-right: 0;
 	}
 }
 
@@ -103,7 +106,13 @@ body {
 		font-size: .25em;
 	}
 	.custom-list li {
-		width: 31.3333%;
+		width: 32%;
 		height: 23em;
+	}
+	.custom-list li:nth-child(even) {
+		margin-right: 2%;
+	}
+	.custom-list li:nth-child(3) {
+		margin-right: 0;
 	}
 }
