@@ -68,7 +68,7 @@ body {
 .custom-list li:before {
 	content: counter(step-counter);
 	font-family: 'Ultra', serif;
-	font-size: 6em;
+	font-size: 5.25em;
 }
 
 .veg-tomatillo { background: url(../img/tomatillo.jpg); }
