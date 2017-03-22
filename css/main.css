@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	padding-top: .5em;
 	font-family: 'Ultra', serif;
-	font-size: 4.5em;
+	font-size: 3em;
 	line-height: 1;
 	text-shadow: 0 0 20px rgba(31,31,31,.6);
 }
@@ -78,6 +78,9 @@ body {
 .veg-beans { background: url(../img/beans.jpg); }
 
 @media screen and (min-width:47.5em){
+	.intro h1 {
+		font-size: 4.5em;
+	}
 	.intro p {
 		font-size: 1.5em;
 	}
