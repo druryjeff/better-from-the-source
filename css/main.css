@@ -78,9 +78,6 @@ body {
 .veg-beans { background: url(../img/beans.jpg); }
 
 @media screen and (min-width:47.5em){
-	.intro {
-		padding: 1.5em 2.5%;
-	}
 	.intro h1 {
 		font-size: 4.5em;
 	}
