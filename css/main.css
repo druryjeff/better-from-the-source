@@ -40,7 +40,7 @@ body {
 .custom-list {
 	overflow: hidden;
 	margin: 0;
-	padding: 0 2.5% 3em;
+	padding: 0 5% 3em;
 	list-style-type: none;
 }
 
@@ -80,6 +80,9 @@ body {
 @media screen and (min-width:47.5em){
 	.intro p {
 		font-size: 1.5em;
+	}
+	.custom-list {
+		padding: 0 2.5% 3em;
 	}
 	.custom-list li {
 		float: left;
