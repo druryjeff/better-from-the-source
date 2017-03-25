@@ -83,6 +83,7 @@ footer * {
 }	
 
 footer p {
+	margin: 3em 0;
 	text-align: center;
 	color: #fff;
 }
@@ -92,14 +93,14 @@ footer a {
 }
 
 @media screen and (min-width:47.5em){
-	.intro h1 {
+	header h1 {
 		font-size: 4.5em;
 	}
-	.intro p {
+	header p {
 		font-size: 1.5em;
 	}
 	.custom-list {
-		padding: 0 2.5% 3em;
+		padding: 0 2.5%;
 	}
 	.custom-list li {
 		float: left;
@@ -114,7 +115,7 @@ footer a {
 }
 
 @media screen and (min-width:67.5em){
-	.intro h1 span {
+	header h1 span {
 		position: relative;
 		display: inline-block;
 		padding: .375em 0;
