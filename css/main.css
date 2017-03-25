@@ -86,10 +86,14 @@ footer p {
 	margin: 1.5em 0 3em;
 	text-align: center;
 	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 footer a {
 	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
 }
 
 @media screen and (min-width:47.5em){
