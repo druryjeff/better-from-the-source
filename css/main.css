@@ -105,9 +105,11 @@ footer a {
 	}
 	.custom-list {
 		padding: 0 2.5%;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.custom-list li {
-		float: left;
+		/*float: left;*/
   		padding: .5em 2.5% 2em;
 		width: 49%;
 		height: 22em;
