@@ -39,7 +39,6 @@ header p {
 }
 
 .custom-list {
-	overflow: hidden;
 	margin: 0;
 	padding: 0 5%;
 	list-style-type: none;
